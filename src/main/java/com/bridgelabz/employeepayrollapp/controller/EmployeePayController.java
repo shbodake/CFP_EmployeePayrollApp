@@ -59,8 +59,8 @@ public class EmployeePayController {
 	@PostMapping("/create")
 	public ResponseEntity<ResponseDTO> addEmployeePayrollData(@RequestBody EmployeePayrollDTO empPayrollDTO) {
 		EmployeePayrollData empData = null;
-		empData = employeePayrollService.updateEmployeePayrollData(empPayrollDTO);
-		ResponseDTO respDTO = new ResponseDTO("Create Employee PayrollData:", empData);
+		empData = employeePayrollService.createEmployeePayrollData(empPayrollDTO);
+		ResponseDTO respDTO = new ResponseDTO("Created Employee PayrollData:", empData);
 		return new ResponseEntity<ResponseDTO>(respDTO, HttpStatus.OK);
 	}
 
@@ -68,14 +68,14 @@ public class EmployeePayController {
 	 * Call put method
 	 * @param empId : Employee id
 	 * @param empPayrollDTO : name, salary
-	 * @return :
+	 * @return : Employee details
 	 */
 	@PutMapping("/update/{empId}")
 	public ResponseEntity<ResponseDTO> updateEmployeePayrollData(@PathVariable("empId") int empId,
 			@RequestBody EmployeePayrollDTO empPayrollDTO) {
 		EmployeePayrollData empData = null;
-		empData = employeePayrollService.updateEmployeePayrollData(empPayrollDTO);
-		ResponseDTO respDTO = new ResponseDTO("Update Employee PayrollData Successful:", empData);
+		empData = employeePayrollService.updateEmployeePayrollData(empId, empPayrollDTO);
+		ResponseDTO respDTO = new ResponseDTO("Updated Employee PayrollData Successful:", empData);
 		return new ResponseEntity<ResponseDTO>(respDTO, HttpStatus.OK);
 
 	}
