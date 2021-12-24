@@ -1,6 +1,8 @@
 package com.bridgelabz.employeepayrollapp.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -10,54 +12,58 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bridgelabz.employeepayrollapp.model.Employees;
-import com.bridgelabz.employeepayrollapp.service.EmployeeService;
+import com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO;
+
 @RestController
 @RequestMapping("/emppayroll")
 public class EmployeePayrollController {
-	/**
-	 * @Autowired:Create object of implemented class and inject it
-	 */
-	@Autowired
-	private EmployeeService employeeservice;
 	
 	/**
-	 * Call get method to get details from table
-	 * @param empId
-	 * @return
+	 * Call Get method
+	 * @return : Http Status
 	 */
-	@GetMapping("/empdetails/{empId}")
-	public Employees getDetails(@PathVariable String empId) {
-		return employeeservice.getDetails(Long.parseLong(empId));
+	@RequestMapping(value = {"","/","/get"})
+	public ResponseEntity<String> getEmployeePayrollData(){
+		return new ResponseEntity<String>("Get Call Success", HttpStatus.OK);
 	}
 	
 	/**
-	 * Call post method to add details in the table
-	 * @param employee
-	 * @return
+	 * Call Get method
+	 * @param empId : Employee Id
+	 * @return : Employee id of the employee
 	 */
-	@PostMapping("/postempDetails")
-	public Employees addDetails(@RequestBody Employees employee) {
-		return employeeservice.addDetails(employee);
+	@GetMapping("/getdetails/{empId}")
+	public ResponseEntity<String> getEmployeePayrollData(@PathVariable("empId") int empId){
+		return new ResponseEntity<String>("Get Call Success for Id: "+ empId, HttpStatus.OK);
 	}
 	
 	/**
-	 * Call put method to edit details in the table
-	 * @param employee
-	 * @return
+	 * Call post method to add details
+	 * @param empPayrollDTO : Employee details id, name & salary
+	 * @return : id, name & salary
 	 */
-	@PutMapping("/edit")
-	public Employees editDetails(@RequestBody Employees employee) {
-		return employeeservice.editDetails(employee);
+	@PostMapping("/createdetails")
+	public ResponseEntity<String> getEmployeePayrollData(@RequestBody EmployeePayrollDTO empPayrollDTO){
+		return new ResponseEntity<String>("Created Employee Payroll Data for: "+ empPayrollDTO, HttpStatus.OK);
 	}
 	
 	/**
-	 * Call delete method to remove details from table
-	 * @param empId
-	 * @return
+	 * Call put method to update details
+	 * @param empPayrollDTO : Employee details id, name & salary 
+	 * @return : id, name & salary
 	 */
-	@DeleteMapping("/empdetails/{empId}")
-	public Employees deleteEmpId(@PathVariable String empId) {
-		return this.employeeservice.deleteEmpId(Long.parseLong(empId));
+	@PutMapping("/updatedetails")
+	public ResponseEntity<String> updateEmployeePayrollData(@RequestBody EmployeePayrollDTO empPayrollDTO){
+		return new ResponseEntity<String>("Updated Employee Payroll Data for: "+ empPayrollDTO, HttpStatus.OK);
+	}
+	
+	/**
+	 * Call delete method to remove employee details
+	 * @param empId : Employee id
+	 * @return : Employee id which is deleted
+	 */
+	@DeleteMapping("/deletedetails/{empId}")
+	public ResponseEntity<String> deleteEmployeePayrollData(@PathVariable("empId") int empId){
+		return new ResponseEntity<String>("Delete call success for id: "+ empId, HttpStatus.OK);
 	}
 }
