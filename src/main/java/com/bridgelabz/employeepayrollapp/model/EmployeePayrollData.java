@@ -1,5 +1,8 @@
 package com.bridgelabz.employeepayrollapp.model;
 
+import java.time.LocalDate;
+import java.util.List;
+
 import com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO;
 
 import lombok.Data;
@@ -8,6 +11,11 @@ public class EmployeePayrollData {
 	private int employeeId;
 	private String name;
 	private long salary;
+	private String gender;
+	private LocalDate startDate;
+	private String note;
+	private String profilePic;
+	private List<String> departments;
 	
 	public EmployeePayrollData() {}
 
@@ -18,8 +26,14 @@ public class EmployeePayrollData {
 		this.salary = empPayRollDTO.salary;
 	}
 
-	@Override
-	public String toString() {
-		return "EmployeePayrollData [employeeId=" + employeeId + ", name=" + name + ", salary=" + salary + "]";
+	public void updateEmployeePayroll(EmployeePayrollDTO empPayRollDTO) {
+		this.name = empPayRollDTO.name;
+		this.salary = empPayRollDTO.salary;
+		this.gender = empPayRollDTO.gender;
+		this.note = empPayRollDTO.note;
+		this.startDate = empPayRollDTO.startDate;
+		this.profilePic = empPayRollDTO.profilePic;
+		this.departments = empPayRollDTO.departments;
 	}
+
 }
