@@ -38,3 +38,312 @@ Action:
 
 Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
 
+2021-12-28 17:22:28.853  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 8564 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 17:22:28.856 DEBUG 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 17:22:28.857  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 17:22:33.225  WARN 8564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 17:22:33.647  WARN 8564 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 17:22:34.074  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 5.877 seconds (JVM running for 7.472)
+2021-12-28 17:22:34.080  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 17:22:34.082  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 17:29:45.175  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 8564 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 17:29:45.176 DEBUG 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 17:29:45.177  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 17:29:46.720  WARN 8564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 17:29:46.928  WARN 8564 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 17:29:47.127  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 2.022 seconds (JVM running for 440.524)
+2021-12-28 17:29:47.134  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 17:29:47.134  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 17:30:11.875  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 8564 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 17:30:11.875 DEBUG 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 17:30:11.876  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 17:30:12.773  WARN 8564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 17:30:12.952  WARN 8564 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 17:30:13.046  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 1.233 seconds (JVM running for 466.443)
+2021-12-28 17:30:13.049  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 17:30:13.050  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 17:31:05.918  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 8564 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 17:31:05.919 DEBUG 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 17:31:05.919  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 17:31:07.108  WARN 8564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 17:31:07.249  WARN 8564 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 17:31:07.409  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 1.53 seconds (JVM running for 520.806)
+2021-12-28 17:31:07.414  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 17:31:07.415  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 17:36:18.968  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 8564 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 17:36:18.968 DEBUG 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 17:36:18.969  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 17:36:20.433  WARN 8564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 17:36:20.550  WARN 8564 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException)}
+2021-12-28 17:36:20.739 ERROR 8564 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) ~[spring-boot-2.6.2.jar:2.6.2]
+	at com.bridgelabz.employeepayrollapp.EmployeePayrollAppApplication.main(EmployeePayrollAppApplication.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.2.jar:2.6.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.14.jar:5.3.14]
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:291) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:268) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1090) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1032) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.14.jar:5.3.14]
+	... 25 common frames omitted
+
+2021-12-28 17:38:17.884  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 8564 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 17:38:17.884 DEBUG 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 17:38:17.885  INFO 8564 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 17:38:18.956  WARN 8564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 17:38:19.066  WARN 8564 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException)}
+2021-12-28 17:38:19.171 ERROR 8564 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) ~[spring-boot-2.6.2.jar:2.6.2]
+	at com.bridgelabz.employeepayrollapp.EmployeePayrollAppApplication.main(EmployeePayrollAppApplication.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.2.jar:2.6.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.14.jar:5.3.14]
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:291) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:268) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1090) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1032) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.14.jar:5.3.14]
+	... 25 common frames omitted
+
+2021-12-28 17:38:56.925  INFO 4052 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 4052 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 17:38:56.929 DEBUG 4052 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 17:38:56.930  INFO 4052 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 17:39:02.600  WARN 4052 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 17:39:02.983  WARN 4052 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException)}
+2021-12-28 17:39:03.099 ERROR 4052 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException)}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) ~[spring-boot-2.6.2.jar:2.6.2]
+	at com.bridgelabz.employeepayrollapp.EmployeePayrollAppApplication.main(EmployeePayrollAppApplication.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.2.jar:2.6.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException)}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.14.jar:5.3.14]
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerMethodArgumentNotValidException(org.springframework.web.bind.MethodArgumentNotValidException), public org.springframework.http.ResponseEntity com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollExceptionalHandler.handlerEmployeePayrollException(org.springframework.web.bind.MethodArgumentNotValidException)}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:114) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:78) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:291) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:268) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1090) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1032) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.14.jar:5.3.14]
+	... 25 common frames omitted
+
+2021-12-28 17:44:59.825  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 5520 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 17:44:59.828 DEBUG 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 17:44:59.829  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 17:45:04.198  WARN 5520 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 17:45:04.641  WARN 5520 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 17:45:04.923  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 5.764 seconds (JVM running for 7.162)
+2021-12-28 17:45:04.931  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 17:45:04.933  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 17:46:13.813  WARN 5520 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDTO> com.bridgelabz.employeepayrollapp.controller.EmployeePayController.addEmployeePayrollData(com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO) with 2 errors: [Field error in object 'employeePayrollDTO' on field 'profilePic': rejected value [null]; codes [NotEmpty.employeePayrollDTO.profilePic,NotEmpty.profilePic,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.profilePic,profilePic]; arguments []; default message [profilePic]]; default message [profilePic can not be null]] [Field error in object 'employeePayrollDTO' on field 'name': rejected value [Mark Taylor]; codes [Pattern.employeePayrollDTO.name,Pattern.name,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@22c1743d,^[A-Z]{1}[a-zA-Z\$]{2,}$]; default message [Employee name Invalid]] ]
+2021-12-28 17:46:50.140  WARN 5520 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDTO> com.bridgelabz.employeepayrollapp.controller.EmployeePayController.addEmployeePayrollData(com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO) with 2 errors: [Field error in object 'employeePayrollDTO' on field 'name': rejected value [Mark Taylor]; codes [Pattern.employeePayrollDTO.name,Pattern.name,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@22c1743d,^[A-Z]{1}[a-zA-Z\$]{2,}$]; default message [Employee name Invalid]] [Field error in object 'employeePayrollDTO' on field 'profilePic': rejected value [null]; codes [NotEmpty.employeePayrollDTO.profilePic,NotEmpty.profilePic,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.profilePic,profilePic]; arguments []; default message [profilePic]]; default message [profilePic can not be null]] ]
+2021-12-28 17:50:57.488  WARN 5520 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDTO> com.bridgelabz.employeepayrollapp.controller.EmployeePayController.addEmployeePayrollData(com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO) with 4 errors: [Field error in object 'employeePayrollDTO' on field 'note': rejected value [null]; codes [NotEmpty.employeePayrollDTO.note,NotEmpty.note,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.note,note]; arguments []; default message [note]]; default message [note can not be null]] [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [0]; codes [Min.employeePayrollDTO.salary,Min.salary,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],500]; default message [minimun wage should be 500]] [Field error in object 'employeePayrollDTO' on field 'profilePic': rejected value [null]; codes [NotEmpty.employeePayrollDTO.profilePic,NotEmpty.profilePic,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.profilePic,profilePic]; arguments []; default message [profilePic]]; default message [profilePic can not be null]] [Field error in object 'employeePayrollDTO' on field 'departments': rejected value [null]; codes [NotEmpty.employeePayrollDTO.departments,NotEmpty.departments,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.departments,departments]; arguments []; default message [departments]]; default message [departments should not be null]] ]
+2021-12-28 21:23:29.640  WARN 5520 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h25s527ms628µs300ns).
+2021-12-28 22:21:10.201  WARN 5520 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57m50s675ms549µs500ns).
+2021-12-28 22:25:07.832  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 5520 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 22:25:07.833 DEBUG 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 22:25:07.834  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 22:25:09.860  INFO 3300 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 3300 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 22:25:09.863 DEBUG 3300 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 22:25:09.865  INFO 3300 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 22:25:11.014  WARN 5520 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 22:25:11.293  WARN 5520 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 22:25:11.479  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 3.858 seconds (JVM running for 16823.843)
+2021-12-28 22:25:11.501  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 22:25:11.501  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 22:25:16.868  WARN 3300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 22:25:17.319  WARN 3300 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 22:25:17.502  WARN 3300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-28 22:25:17.555  WARN 3300 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-12-28 22:25:17.730 ERROR 3300 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-12-28 22:25:34.584  INFO 1360 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 1360 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 22:25:34.586 DEBUG 1360 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 22:25:34.587  INFO 1360 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 22:25:39.036  WARN 1360 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 22:25:39.433  WARN 1360 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 22:25:39.573  WARN 1360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-28 22:25:39.609  WARN 1360 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-12-28 22:25:39.685 ERROR 1360 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-12-28 22:28:10.673  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 5520 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 22:28:10.674 DEBUG 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 22:28:10.675  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 22:28:11.948  WARN 5520 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 22:28:12.075  WARN 5520 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 22:28:12.170  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 1.584 seconds (JVM running for 17004.535)
+2021-12-28 22:28:12.172  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 22:28:12.173  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 22:28:27.366  INFO 12728 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 12728 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 22:28:27.369 DEBUG 12728 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 22:28:27.370  INFO 12728 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 22:28:31.670  WARN 12728 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 22:28:32.065  WARN 12728 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 22:28:32.213  WARN 12728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-28 22:28:32.247  WARN 12728 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-12-28 22:28:32.327 ERROR 12728 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-12-28 22:29:31.926  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 5520 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 22:29:31.927 DEBUG 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 22:29:31.928  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 22:29:32.622  WARN 5520 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 22:29:32.747  WARN 5520 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 22:29:32.834  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.973 seconds (JVM running for 17085.199)
+2021-12-28 22:29:32.838  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 22:29:32.839  INFO 5520 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 22:29:41.610  INFO 7588 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 7588 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 22:29:41.613 DEBUG 7588 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 22:29:41.613  INFO 7588 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 22:29:57.418  INFO 2832 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 2832 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 22:29:57.421 DEBUG 2832 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 22:29:57.422  INFO 2832 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 22:30:05.194  WARN 2832 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 22:30:05.694  WARN 2832 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 22:30:05.852  WARN 2832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-28 22:30:05.893  WARN 2832 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-12-28 22:30:05.994 ERROR 2832 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
