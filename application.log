@@ -347,3 +347,213 @@ Action:
 
 Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
 
+2021-12-28 22:40:57.499  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 4020 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 22:40:57.613 DEBUG 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 22:40:57.613  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 22:41:16.291  WARN 4020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 22:41:17.320  WARN 4020 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 22:41:17.872  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 23.475 seconds (JVM running for 28.324)
+2021-12-28 22:41:17.879  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 22:41:17.881  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 22:47:34.290  WARN 4020 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDTO> com.bridgelabz.employeepayrollapp.controller.EmployeePayController.addEmployeePayrollData(com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO): [Field error in object 'employeePayrollDTO' on field 'departments': rejected value [null]; codes [NotEmpty.employeePayrollDTO.departments,NotEmpty.departments,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.departments,departments]; arguments []; default message [departments]]; default message [departments should not be null]] ]
+2021-12-28 22:47:51.235 DEBUG 4020 --- [http-nio-8080-exec-4] c.b.e.controller.EmployeePayController   : Employee DTO : EmployeePayrollDTO(name=Sayali, salary=5000, gender=female, startDate=2019-10-29, note=welcome to bridgelabz, profilePic=../assets/profile-pic.png, departments=[Hr])
+2021-12-28 23:02:21.956  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 4020 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 23:02:21.959 DEBUG 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 23:02:21.959  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 23:02:24.415  WARN 4020 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.annotation.AnnotationFormatError: java.lang.IllegalArgumentException: Constant pool index out of bounds
+2021-12-28 23:02:24.554 ERROR 4020 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.annotation.AnnotationFormatError: java.lang.IllegalArgumentException: Constant pool index out of bounds
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) ~[spring-boot-2.6.2.jar:2.6.2]
+	at com.bridgelabz.employeepayrollapp.EmployeePayrollAppApplication.main(EmployeePayrollAppApplication.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.2.jar:2.6.2]
+Caused by: java.lang.annotation.AnnotationFormatError: java.lang.IllegalArgumentException: Constant pool index out of bounds
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:78) ~[na:na]
+	at java.base/java.lang.reflect.Field.declaredAnnotations(Field.java:1211) ~[na:na]
+	at java.base/java.lang.reflect.Field.declaredAnnotations(Field.java:1209) ~[na:na]
+	at java.base/java.lang.reflect.Field.getAnnotation(Field.java:1176) ~[na:na]
+	at java.base/java.lang.reflect.AnnotatedElement.isAnnotationPresent(AnnotatedElement.java:292) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.isAnnotationPresent(AccessibleObject.java:518) ~[na:na]
+	at org.hibernate.annotations.common.reflection.java.JavaAnnotationReader.isAnnotationPresent(JavaAnnotationReader.java:33) ~[hibernate-commons-annotations-5.1.2.Final.jar:5.1.2.Final]
+	at org.hibernate.annotations.common.reflection.java.JavaXAnnotatedElement.isAnnotationPresent(JavaXAnnotatedElement.java:43) ~[hibernate-commons-annotations-5.1.2.Final.jar:5.1.2.Final]
+	at org.hibernate.annotations.common.reflection.java.JavaXMember.isAnnotationPresent(JavaXMember.java:26) ~[hibernate-commons-annotations-5.1.2.Final.jar:5.1.2.Final]
+	at org.hibernate.cfg.PropertyContainer.mustBeSkipped(PropertyContainer.java:418) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.cfg.PropertyContainer.preFilter(PropertyContainer.java:119) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.cfg.PropertyContainer.<init>(PropertyContainer.java:92) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:217) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:771) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.14.jar:5.3.14]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Constant pool index out of bounds
+	at java.base/jdk.internal.reflect.ConstantPool.getUTF8At0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.ConstantPool.getUTF8At(ConstantPool.java:66) ~[na:na]
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:240) ~[na:na]
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations2(AnnotationParser.java:121) ~[na:na]
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:73) ~[na:na]
+	... 46 common frames omitted
+
+2021-12-28 23:02:26.025  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 4020 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 23:02:26.025 DEBUG 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 23:02:26.025  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 23:02:26.923  WARN 4020 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.annotation.AnnotationFormatError: java.lang.IllegalArgumentException: Constant pool index out of bounds
+2021-12-28 23:02:26.941 ERROR 4020 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.annotation.AnnotationFormatError: java.lang.IllegalArgumentException: Constant pool index out of bounds
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) ~[spring-boot-2.6.2.jar:2.6.2]
+	at com.bridgelabz.employeepayrollapp.EmployeePayrollAppApplication.main(EmployeePayrollAppApplication.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.2.jar:2.6.2]
+Caused by: java.lang.annotation.AnnotationFormatError: java.lang.IllegalArgumentException: Constant pool index out of bounds
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:78) ~[na:na]
+	at java.base/java.lang.reflect.Field.declaredAnnotations(Field.java:1211) ~[na:na]
+	at java.base/java.lang.reflect.Field.declaredAnnotations(Field.java:1209) ~[na:na]
+	at java.base/java.lang.reflect.Field.getAnnotation(Field.java:1176) ~[na:na]
+	at java.base/java.lang.reflect.AnnotatedElement.isAnnotationPresent(AnnotatedElement.java:292) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.isAnnotationPresent(AccessibleObject.java:518) ~[na:na]
+	at org.hibernate.annotations.common.reflection.java.JavaAnnotationReader.isAnnotationPresent(JavaAnnotationReader.java:33) ~[hibernate-commons-annotations-5.1.2.Final.jar:5.1.2.Final]
+	at org.hibernate.annotations.common.reflection.java.JavaXAnnotatedElement.isAnnotationPresent(JavaXAnnotatedElement.java:43) ~[hibernate-commons-annotations-5.1.2.Final.jar:5.1.2.Final]
+	at org.hibernate.annotations.common.reflection.java.JavaXMember.isAnnotationPresent(JavaXMember.java:26) ~[hibernate-commons-annotations-5.1.2.Final.jar:5.1.2.Final]
+	at org.hibernate.cfg.PropertyContainer.mustBeSkipped(PropertyContainer.java:418) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.cfg.PropertyContainer.preFilter(PropertyContainer.java:119) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.cfg.PropertyContainer.<init>(PropertyContainer.java:92) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:217) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:771) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.3.Final.jar:5.6.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.14.jar:5.3.14]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Constant pool index out of bounds
+	at java.base/jdk.internal.reflect.ConstantPool.getUTF8At0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.ConstantPool.getUTF8At(ConstantPool.java:66) ~[na:na]
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:240) ~[na:na]
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations2(AnnotationParser.java:121) ~[na:na]
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:73) ~[na:na]
+	... 46 common frames omitted
+
+2021-12-28 23:03:08.174  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 4020 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 23:03:08.177 DEBUG 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 23:03:08.178  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 23:03:31.612  WARN 4020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 23:03:31.759  WARN 4020 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 23:03:31.949  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 23.883 seconds (JVM running for 1362.401)
+2021-12-28 23:03:31.954  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 23:03:31.955  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 23:03:54.251  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 4020 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 23:03:54.252 DEBUG 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 23:03:54.252  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 23:03:59.003  WARN 4020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 23:03:59.173  WARN 4020 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 23:03:59.421  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 5.216 seconds (JVM running for 1389.873)
+2021-12-28 23:03:59.425  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 23:03:59.425  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 23:04:25.197  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 4020 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 23:04:25.198 DEBUG 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 23:04:25.198  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 23:04:26.632  WARN 4020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 23:04:26.991  WARN 4020 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 23:04:27.808  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 2.679 seconds (JVM running for 1418.259)
+2021-12-28 23:04:27.815  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 23:04:27.816  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 23:07:32.688  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 4020 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 23:07:32.688 DEBUG 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 23:07:32.689  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 23:07:35.015  WARN 4020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 23:07:35.149  WARN 4020 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 23:07:35.453  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 2.819 seconds (JVM running for 1605.905)
+2021-12-28 23:07:35.457  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 23:07:35.457  INFO 4020 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 23:08:12.455  INFO 5432 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 5432 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 23:08:12.459 DEBUG 5432 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 23:08:12.460  INFO 5432 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 23:08:29.901  WARN 5432 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 23:08:30.551  WARN 5432 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 23:08:31.139  WARN 5432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-12-28 23:08:31.216  WARN 5432 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-12-28 23:08:31.356 ERROR 5432 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-12-28 23:08:45.379  INFO 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 7028 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 23:08:45.384 DEBUG 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 23:08:45.385  INFO 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 23:08:51.552  WARN 7028 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 23:08:52.133  WARN 7028 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 23:08:52.916  INFO 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 8.279 seconds (JVM running for 9.784)
+2021-12-28 23:08:52.921  INFO 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 23:08:52.924  INFO 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
+2021-12-28 23:29:44.167 DEBUG 7028 --- [http-nio-8080-exec-2] c.b.e.controller.EmployeePayController   : Employee DTO : EmployeePayrollDTO(name=Sayali, salary=5000, gender=female, startDate=2019-10-29, note=welcome to bridgelabz, profilePic=../assets/profile-pic.png, departments=[Hr])
+2021-12-28 23:33:32.238  INFO 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.1 on DESKTOP with PID 7028 (H:\Spring-Projects\EmployeePayrollApp\target\classes started by sayali in H:\Spring-Projects\EmployeePayrollApp)
+2021-12-28 23:33:32.247 DEBUG 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.2, Spring v5.3.14
+2021-12-28 23:33:32.247  INFO 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following profiles are active: DEV
+2021-12-28 23:33:38.294  WARN 7028 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-28 23:33:38.502  WARN 7028 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-12-28 23:33:38.761  INFO 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 6.765 seconds (JVM running for 1495.629)
+2021-12-28 23:33:38.766  INFO 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in DEV Environment
+2021-12-28 23:33:38.767  INFO 7028 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is payrolluser Environment
