@@ -28,7 +28,6 @@ public @Data class EmployeePayrollData {
 	
 	@Column(name = "name")
 	private String name;
-	
 	private long salary;
 	private String gender;
 	
@@ -45,7 +44,9 @@ public @Data class EmployeePayrollData {
 	@Column(name = "department")
 	private List<String> departments;
 	
-	public EmployeePayrollData() {}
+	public EmployeePayrollData() {
+		super();
+	}
 
 	public EmployeePayrollData(EmployeePayrollDTO empPayRollDTO) {
 		this.updateEmployeePayroll(empPayRollDTO);
