@@ -24,36 +24,23 @@ public class EmployeePayrollExceptionalHandler {
 	 * @param exception
 	 * @return : ResponseEntity of Exception
 	 */
-	@ExceptionHandler(HttpMessageNotReadableException.class)
-	public ResponseEntity<ResponseDTO> handelHttpMessageNotReadableException(
-			HttpMessageNotReadableException exception) {
-		log.error("Invalid Date Format", exception);
-		ResponseDTO responseDTO = new ResponseDTO(message, "Should have date in dd MMM yyyy format");
-		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.BAD_REQUEST);
-	}
+	@ExceptionHandler(MethodArgumentNotValidException.class)
+    public ResponseEntity<ResponseDTO> handlerMethodArgumentNotValidException(MethodArgumentNotValidException methodArgumentNotValidException){
+        List<ObjectError> errorList = methodArgumentNotValidException.getBindingResult().getAllErrors();
+        List<String> errMsg = errorList.stream().map(objErr->objErr.getDefaultMessage()).collect(Collectors.toList());
+        ResponseDTO responseDTO = new ResponseDTO(message,errMsg,HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.OK);
+    }
 
 	/**
 	 * Method to handle when user Id not found
 	 * @param exception
-	 * @return : Response Entity of Exception
+	 * @return : Response Entity of Exception and HttpStatus
 	 */
-	@ExceptionHandler(MethodArgumentNotValidException.class)
-	public ResponseEntity<ResponseDTO> handlerEmployeePayrollException(MethodArgumentNotValidException exception) {
-		List<ObjectError> errorList = exception.getBindingResult().getAllErrors();
-		List<String> errMesg = errorList.stream().map(objErr -> objErr.getDefaultMessage())
-				.collect(Collectors.toList());
-		ResponseDTO responseDTO = new ResponseDTO(message, errMesg);
-		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.BAD_REQUEST);
-	}
+	 @ExceptionHandler(EmployeePayrollException.class)
+	    public ResponseEntity<ResponseDTO> handlerPersonException(EmployeePayrollException exception){
+	        ResponseDTO responseDTO = new ResponseDTO(message,EmployeePayrollException.class ,HttpStatus.BAD_REQUEST);
+	        return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.OK);
+	    }
 	
-	/**
-	 * handle when user Id not found
-	 * 
-	 * @return : ResponseEntity of Exception and HttpStatus
-	 */
-	@ExceptionHandler(EmployeePayrollException.class)
-	public ResponseEntity<ResponseDTO> handleEmployeePayrollException(EmployeePayrollException exception) {
-		ResponseDTO responseDTO = new ResponseDTO(message, exception.getMessage());
-		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.BAD_REQUEST);
-	}
 }
